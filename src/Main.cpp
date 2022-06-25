@@ -27,13 +27,13 @@ int main() {
 
         // This function will save the information of the
         // Physical Product in a file with the name games.txt
-        fileManager.save(physicalProduct,  "games.txt");
+        fileManager.save(physicalProduct,  "../../datos/games.txt");
 
         // This function read a text file by line
-        string fileTextByLine = fileManager.readByLine("games.txt");
+        string fileTextByLine = fileManager.readByLine("../../datos/games.txt");
 
         // This function read a text file by full content in one sentence
-        string fileTextByContent = fileManager.readByContent("games.txt");
+        string fileTextByContent = fileManager.readByContent("../../datos/games.txt");
 
         cout << "[FILE TEXT READ BY LINE]" << endl;
         cout << fileTextByLine << endl;
